@@ -2,7 +2,7 @@ import re
 import numpy as np
 
 # Read the log text
-with open("Results.txt", "r") as f:
+with open("Reconstruction results.txt", "r") as f:
     log_data = f.read()
 
 # Extract numerical values: [Epoch, Train Loss, Train AUC, Val Loss, Val AUC]
